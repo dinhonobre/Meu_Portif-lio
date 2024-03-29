@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #333333;
     background-image: url('./img/9bb34f8f65c3c8b0cf409b2bb7520315.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-    background-color: #343a40 !important; 
+    background-color: #2d445a !important; 
 }
 
 .navbar-brand {
@@ -104,4 +104,8 @@ section {
 
 #contato .section-title {
     color: #fff; 
+}
+
+.container label {
+    color: #fff;
 }
