@@ -1,14 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    color: #333333;
     background-image: url('./img/9bb34f8f65c3c8b0cf409b2bb7520315.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
 }
 
+#portfolio-title:hover {
+    color: #fff; 
+}
+
+
+
 .navbar {
-    background-color: #2d445a !important; 
+    background-color: #2d445a; 
 }
 
 .navbar-brand {
@@ -63,8 +68,22 @@ nav li a {
 .nav-link {
     color: #fff; 
 }
+
+.nav-link:hover {
+    color: #4b77a7;
+}
+
 section {
     padding: 80px 0;
+}
+
+.card {
+    background-color: transparent; 
+    transition: transform 0.3s ease; 
+}
+
+.card:hover {
+    transform: scale(1.1); 
 }
 
 .section-title {
@@ -109,3 +128,24 @@ section {
 .container label {
     color: #fff;
 }
+
+footer {
+    background-color: #2d445a;
+}
+
+
+.btn-custom {
+    background-color: #4b77a7; 
+    border-color: #4b77a7; 
+    color: #FFFFFF; 
+}
+
+.btn-custom:hover {
+    background-color: #68829e; 
+    border-color: #68829e; 
+    color: #FFFFFF;
+}
+
+
+
+
